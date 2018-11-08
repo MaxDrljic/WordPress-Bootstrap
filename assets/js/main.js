@@ -1,10 +1,7 @@
-$(function() {
+$(document).ready(function() {
 	
 	// Cache the Window object
 	var $window = $(window);
-	
-	// Parallax Backgrounds
-	// Tutorial: http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641
 	
 	$('section[data-type="background"]').each(function(){
 		var $bgobj = $(this); // assigning the object
