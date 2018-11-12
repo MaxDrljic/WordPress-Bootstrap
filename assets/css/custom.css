@@ -405,14 +405,14 @@ i.ci {
 
 /* === MEDIA QUERIES === */
 
-@media screen and(max-width: 991px) {
+@media (max-width: 991px) {
   #instructor .container {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .logo {
     width: 50%;
   }
@@ -426,7 +426,7 @@ i.ci {
   }
 }
 
-@media screen and (max-width: 568px) {
+@media (max-width: 568px) {
   #instructor .num {
     height: 100px;
     width: 100px;
@@ -435,5 +435,11 @@ i.ci {
 
   #instructor .num span {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  .price h4 {
+    font-size: 0.8em;
   }
 }
